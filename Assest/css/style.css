@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(12, 1, 39);
+    
+}
+header{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    
+
+}
+
+.header-area{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.logo-img img{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-menu{
+    display: flex;  
+    color: #fff;
+}
+
+.header-menu nav ul a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.header-menu nav ul a:hover{
+    border-bottom: 2px solid #01e675;
+    
+}
+
+main{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.conteudo-area h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video-area{
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+}
+
+.video-area1{
+    position: relative;
+    height: 0px;
+    background-color: #ccc;
+    padding: 0px 0px 56.25%;
+}
+
+.video-area iframe{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+.conteudo-prin p{
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    
+}
+
+.conteudo-area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   
+    
+}
+
+.button1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #01e675;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+
+.button1:hover{
+    background-color: #065f33;
+}
+
+.cadastro-area{
+    margin-top: 100px;
+    max-width:450px;
+    margin:auto;
+    text-align:center;
+}
+
+.cadastro-area h2{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cadastro-area input{
+    display:block;
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #fff;
+    outline:0;
+    margin-top:15px;
+    
+
+}
+
+.cadastro-area a{
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    flex-direction: column;
+    height: auto;
+}
+
+.footer-area{
+    max-width: 1140px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social{
+    display: flex;
+    width: 280px;
+    height: auto;   
+    margin: 10px;
+}
+
+.footer-social-img a img {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+.receber-email{
+    margin: auto;
+    width: 350px;
+    height: 180px;   
+    margin: 10px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.email-footer input{
+    display:block;
+    width:80%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    margin-top:10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 9px;
+    margin-bottom: 20px;
+}
+
+.receber-email .button1{
+    text-transform: none;
+}
+
+hr{
+    color: #CCC;
+    width: 100%;
+}
+
+.footer-copy{
+    border-top: 1px solid #2c2c2c;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_copy p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+footer p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+footer p a:hover{
+    color: #01e675;
+}
